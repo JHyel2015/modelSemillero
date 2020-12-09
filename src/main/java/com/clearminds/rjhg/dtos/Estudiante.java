@@ -9,6 +9,12 @@ public class Estudiante {
 		this.nombre = nombre;
 		this.apellido = apellido;
 	}
+	public Estudiante(int id, String nombre, String apellido) {
+		super();
+		this.id = id;
+		this.nombre = nombre;
+		this.apellido = apellido;
+	}
 	public String getNombre() {
 		return nombre;
 	}
