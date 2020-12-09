@@ -4,6 +4,9 @@ public class Estudiante {
 	private String nombre;
 	private String apellido;
 	private int id;
+	public Estudiante() {
+		super();
+	}
 	public Estudiante(String nombre, String apellido) {
 		super();
 		this.nombre = nombre;
